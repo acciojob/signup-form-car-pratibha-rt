@@ -17,43 +17,43 @@
 		<br><br>
 		
 		<label for="email">Email</label>
-		<input id="email" type="email" placeholder="Email" required />
+		<input name="email" id="email" type="email" placeholder="Email" required />
 		<br><br>
 
-		<p>Gender:</p>
+		<label >Gender:</label>
 		<input name="gender" id="gender_m" type="radio" required/>
-		<label for="gender_m">gender_m</label>
+		<label for="gender_m">Male</label>
 		
 		<input name="gender" id="gender_f" type="radio" required/>
-		<label for="gender_f">gender_f</label>
+		<label for="gender_f">Female</label>
 		<br><br>
 
 		<label for="cars">Car Brands</label>
 		<select id="cars" name="cars" required>
 			<option value=" " disabled selected>--Please choose an option--</option>
-			<option value="1">mercedes</option>
-			<option value="2">bmw</option>
+			<option value="mercedes">mercedes</option>
+			<option value="bmw">bmw</option>
 		</select>
 		<br><br>
 
 		<label for="age">Age</label>
-		<input type="number" id="age" placeholder="Age" required />
+		<input name="age" type="number" id="age" placeholder="Age" required />
 		<br><br>
 
 		<label for="dob">DOB</label>
-		<input id="dob" type="date" />
+		<input name="dob" id="dob" type="date" required/>
 		<br><br>
 
 		<label for="tel">Phone Number</label>
-		<input id="tel" type="number" placeholder="xxx-xxx-xxxx" required>
+		<input name="tel" id="tel" type="number" placeholder="xxx-xxx-xxxx" required>
 		<br><br>
 
 		<label for="password">Password</label>
-		<input id="password" type="password" placeholder="Password" required />
+		<input name="password" id="password" type="password" placeholder="Password" required />
 		<br><br>
 
 		<label for="tos">I agree to the TOS</label>
-		<input id="tos" type="checkbox" required>
+		<input name="tos" id="tos" type="checkbox" required>
 		<br><br>
 
 		<button type="submit">submit</button>
